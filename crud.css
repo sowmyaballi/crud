@@ -1,0 +1,92 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(2, 17, 30);
+}
+
+.form_container {
+    margin-top: 20px;
+    width: 40vw;
+    max-width: 600px;
+    border-radius: 10px;
+    height: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form_container h2 {
+    margin-bottom: 20px;
+    color: rgb(2, 17, 30);
+}
+
+form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    width: 100%;
+    padding: 12px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #025802;
+}
+
+.add_div {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.add_div button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add_div button:hover {
+    background-color: #025802;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+}
+
+table th {
+    background-color: #f2f2f2;
+    color: rgb(2, 17, 30);
+}
+
+table tr:last-child td {
+    border-bottom: none;
+}
+
+.update_form, .create_form {
+    display: none;
+}
+
